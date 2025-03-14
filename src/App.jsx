@@ -3,17 +3,15 @@ import "./App.css";
 import Landing from "./pages/landing/Landing.jsx";
 import Success from "./pages/success/Success.jsx";
 
-
-
 function App() {
   return (
     <Router basename="/crypto-landing-page">
       <Routes>
-        <Route exact path="/" element={<Landing />} />
-        <Route exact path="/success" element={<Success />} />
+        <Route path="/" element={<Landing />} />
+        <Route path="/success" element={<Success />} />
       </Routes>
     </Router>
   );
-}  
+}
 
 export default App;
