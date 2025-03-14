@@ -7,7 +7,7 @@ import Success from "./pages/success/Success.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/crypto-landing-page">
       <Routes>
         <Route exact path="/" element={<Landing />} />
         <Route exact path="/success" element={<Success />} />
