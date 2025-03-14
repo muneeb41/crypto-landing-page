@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://yourusername.github.io/crypto-landing-page/",
+  "homepage": "https://muneeb41.github.io/crypto-landing-page/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
