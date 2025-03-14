@@ -24,7 +24,7 @@ const Success = () => {
         <p className="mt-4 text-lg">
           <span className="font-semibold">Be Ready For The Workshop On</span>
           <br />
-          <span className="text-green-400 text-xl font-bold">{getNextSunday()} at {getTime}</span>
+          <span className="text-green-400 text-xl font-bold">{getNextSunday()} at {getTime()}</span>
         </p>
         <p className="mt-6 text-sm">Join The WhatsApp Group For Support & Updates</p>
         <a href={whatsappUrl} target="_blank">
