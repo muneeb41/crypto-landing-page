@@ -8,7 +8,7 @@ function App() {
     <Router basename="/crypto-landing-page">
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/success" element={<Success />} />
+        <Route path="/crypto-landing-page/success" element={<Success />} />
       </Routes>
     </Router>
   );
