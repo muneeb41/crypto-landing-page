@@ -1,5 +1,4 @@
 import React from "react";
-
 import host from '../../assets/images/host/host.png'
 import DateTimeSection from "./DateTimeSection.jsx";
 import CountdownTimer from "./CountdownTimer.jsx";
@@ -8,7 +7,7 @@ import BonusLine from "../bonusLine/BonusLine.jsx";
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-center items-center flex-col hero-background pb-6">
+    <div className="flex justify-center items-center flex-col bg-black pb-6">
       <p className="bg-green-500 w-full rounded-b-2xl py-2 sm:text-xl sm:w-8/12 px-2 text-center text-white font-bold">
         Are You Ready for the Next Big Crypto Opportunity?
       </p>
