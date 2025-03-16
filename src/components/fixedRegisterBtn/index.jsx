@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { paymentUrl } from "../../utils/const.js";
+import { Link } from "react-router-dom";
+
 
 const FixedRegisterBtn = () => {
   const [timeLeft, setTimeLeft] = useState(30 * 60); // 30 minutes in seconds
@@ -37,11 +39,11 @@ const FixedRegisterBtn = () => {
         </div>
 
         {/* Right Section (Button) */}
-        <a href={paymentUrl} target='_blank'>
+        <Link to='success'>
         <button className="bg-green-700 animate-move hover:bg-green-600 transition-all duration-300 text-white font-bold py-2 px-6 rounded-lg shadow-md text-xl">
           Register Now
         </button>  
-        </a> 
+        </Link>
       </div>
 
       {/* Blinking Animation */}
