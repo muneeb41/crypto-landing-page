@@ -39,11 +39,11 @@ const FixedRegisterBtn = () => {
         </div>
 
         {/* Right Section (Button) */}
-        <Link to='success'>
+         <a href="https://superprofile.bio/vp/67d41fd98a981f001365ac10">
         <button className="bg-green-700 animate-move hover:bg-green-600 transition-all duration-300 text-white font-bold py-2 px-6 rounded-lg shadow-md text-xl">
           Register Now
         </button>  
-        </Link>
+         </a>
       </div>
 
       {/* Blinking Animation */}
